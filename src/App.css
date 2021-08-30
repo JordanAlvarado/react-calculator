@@ -1,0 +1,53 @@
+
+.calculator{
+  border: 3px solid green;
+  width: 30%;
+  margin: 10px;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.number {
+  border: 1px solid purple;
+}
+
+.button {
+  width: 39px;
+  height: 40px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 15px;
+  background-color: lightblue;
+}
+
+
+
+.operation {
+  border: 1px solid red;
+}
+
+.delete {
+  border: 1px solid pink;
+}
+
+.equals {
+  border: 1px solid yellow;
+}
+
+.results-container{
+  margin: 10px 5px;
+}
+
+.operations-container{
+  display: grid;
+  grid-template-columns: 40px 40px 40px;
+}
+
+.numbers-container{
+  display: grid;
+  grid-template-columns: 40px 40px 40px;
+  order: 0;
+}
