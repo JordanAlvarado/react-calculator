@@ -1,53 +1,40 @@
 
 .calculator{
-  border: 3px solid green;
+  border: 3px solid black;
   width: 30%;
   margin: 10px;
 }
 
+.result {
+  border: 1px solid black;
+  height: 60px;
+  width: 95%;
+  margin-top :10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.result p {
+  font-size: 25px;
+}
 
 .App {
   text-align: center;
 }
 
-.number {
-  border: 1px solid purple;
-}
-
 .button {
-  width: 39px;
+  display: block;
+}
+
+button {
+  width: 25%;
   height: 40px;
-  margin-left: 10px;
-  text-align: center;
-  font-size: 15px;
-  background-color: lightblue;
+  font-size: 18px;
+}
+.equals{
+  width: 50%;
 }
 
-
-
-.operation {
-  border: 1px solid red;
-}
-
-.delete {
-  border: 1px solid pink;
-}
-
-.equals {
-  border: 1px solid yellow;
-}
-
-.results-container{
-  margin: 10px 5px;
-}
-
-.operations-container{
-  display: grid;
-  grid-template-columns: 40px 40px 40px;
-}
-
-.numbers-container{
-  display: grid;
-  grid-template-columns: 40px 40px 40px;
-  order: 0;
+.zero{
+  width: 50%;
 }
